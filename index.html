@@ -411,6 +411,47 @@ hr {
   height: 50px;
   transform: translateY(5px);
 }
+	    /*  Response to mobile 920px width */
+@media screen and (max-width: 920px) {
+  body {
+    overflow-y: auto;
+  }
+  .maincontainer {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .crsr {
+    display: none;
+  }
+  .blur-cursor {
+    display: none;
+  }
+  .blocka-appear {
+    width: 90vw;
+    /* height: 50px; */
+    /* overflow: hidden; */
+    margin: auto;
+    box-shadow: none;
+    margin-bottom: 0.7rem;
+  }
+  /* appear class */
+
+  .other-expenditure {
+    width: 90vw;
+    margin: auto;
+    left: 1rem;
+  }
+  .topbuttons {
+    font-size: 14px;
+    height: 25px;
+  }
+  .buttons {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
 
     </style>
     <title>SHEET INDEX</title>
